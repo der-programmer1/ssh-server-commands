@@ -1,15 +1,64 @@
-How to create a file: nano <filename>
+# --------------------------
+# Basic Terminal Commands Cheat Sheet
+# --------------------------
 
-How to read a file: cat <filename>
+# 1) File Operations
+Create a file:            nano <filename>
+Read a file:              cat <filename>
+Edit a file:              nano <filename>
+List all files:           ls
+List files with details:  ls -lah
+Copy a file:              cp <source> <destination>
+Move/Rename a file:       mv <source> <destination>
+Delete a file:            rm <filename>
 
-How to show all files: ls
+# 2) Directory Operations
+Change directory:         cd <directory>
+Go to home directory:     cd ~
+Go back one level:        cd ..
+Make a new directory:     mkdir <directory>
+Remove a directory:       rmdir <directory>   # only if empty
+Remove directory and content: rm -r <directory>
+Show current directory:   pwd
 
-How to edit a file: nano <filename>
+# 3) Permissions & Admin
+Run admin command:        sudo <command>
+Switch user:              su - <username>
+Show current user:        whoami
+Change file permissions:  chmod <mode> <file>
+Change file owner:        chown <user>:<group> <file>
 
-Change into a directory: cd <directory>
+# 4) Compressed Files
+Unzip a file:             unzip <file.zip>
+Read zip content:         unzip -p <file.zip> | less
+Create a zip file:        zip <archive.zip> <files>
+Extract tar.gz:           tar -xvzf <file.tar.gz>
+Create tar.gz:            tar -czvf <archive.tar.gz> <files>
 
-Run admin commands: sudo <admin-command>
+# 5) Networking
+Check IP address:         ip addr show
+Ping a host:              ping <host>
+Check open ports:         netstat -tuln
+Download a file:          curl -O <url>
+SSH to another machine:   ssh <username>@<ip_address>
 
-Switch user: su - <username>
+# 6) System Info
+Disk usage:               df -h
+Memory usage:             free -h
+List processes:           ps aux
+Real-time process monitor: htop
+Check uptime:             uptime
+Check system version:     uname -a
 
-How to read a .zip file: unzip -p <file_name> | less
+# 7) Git / Version Control
+Check git status:         git status
+Add changes:              git add <file>
+Commit changes:           git commit -m "<commit message>"
+Push to remote:           git push
+Pull from remote:         git pull
+Show commit log:          git log
+
+# 8) Exiting / Navigation
+Exit a program/view:      q   # e.g., less, man
+Cancel a command:         Ctrl+C
+Clear terminal:           clear
