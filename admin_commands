@@ -1,0 +1,15 @@
+How to create a file: nano <filename>
+
+How to read a file: cat <filename>
+
+How to show all files: ls
+
+How to edit a file: nano <filename>
+
+Change into a directory: cd <directory>
+
+Run admin commands: sudo <admin-command>
+
+Switch user: su - <username>
+
+How to read a .zip file: unzip -p <file_name> | less
