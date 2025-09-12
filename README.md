@@ -1,4 +1,18 @@
 # ssh-server-commands
+
+# SSH Server Commands
+Learn how to set up and use SSH servers on Mac, Windows, and Linux quickly and safely.
+
+
+## Table of Contents
+- [Mac Setup](#mac-setup)
+- [Windows Setup](#windows-setup)
+- [Linux Setup](#linux-setup)
+- [Basic Commands](#basic-commands)
+- [Security Tips](#security-tips)
+
+
+
 On our Page, you can find basic commands for your own ssh server. It's only for beginners. 
 
 With these commands, you have a based knowledge about what is going on in your server, how you can handle these things and you know basic linux commands that
